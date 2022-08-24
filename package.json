@@ -1,0 +1,27 @@
+{
+  "name": "random-message-string",
+  "version": "1.0.0",
+  "description": "random-message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibraim10/random-message-string.git"
+  },
+  "keywords": [],
+  "author": "Ibraim Calvo <ibraim_10@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibraim10/random-message-string/issues"
+  },
+  "homepage": "https://github.com/ibraim10/random-message-string#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}
